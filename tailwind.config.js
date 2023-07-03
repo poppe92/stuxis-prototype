@@ -7,10 +7,26 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'light-comfy-blue': '#D1F4FF',
+        'comfy-blue': '#2B748B',
+        'light-comfy-purple': '#E4D1FF',
+        'comfy-purple': '#6A4898',
+        'light-comfy-red': '#FFBEBE',
+        'comfy-red': '#833838',
+        'comfy-yellow' : '#FFE49F',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      boxShadow: {
+        'blue-shadow' : '9px 9px 0px 1px rgba(43,116,139,1)',
+        'purple-shadow' : '9px 9px 0px 1px rgba(106,72,152,1)',
+        'purple-button-shadow' : '5px 5px 0px 1px rgba(106,72,152,1)',
+        'red-shadow' : '9px 9px 0px 1px rgba(131,56,56,1)',
+        'yellow-background-shadow' : '26px 26px 0px 1px rgba(255,228,159,1)',
       },
     },
   },
