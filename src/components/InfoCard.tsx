@@ -20,21 +20,12 @@ function InfoCard({
 }: InfoCardProps) {
   return (
     <div
-      className={`flex flex-col justify-center items-center rounded-lg border-2 border-solid p-4 min-w-[260px] grow max-w-[360px] ${backgroundColor} ${shadowColor} ${borderColor}`}>
-      InfoCard
+      className={`flex flex-col justify-center items-center text-center rounded-lg border-2 border-solid p-6 min-w-[160px] max-w-[360px] min-h-[410px] ${backgroundColor} ${shadowColor} ${borderColor}`}>
       <Image src={image} alt="" width={60} height={60} />
-      <h2>{headerText}</h2>
-      <p>{paragraphText}</p>
+      <h2 className="text-2xl font-bold leading-relaxed py-2">{headerText}</h2>
+      <p className="text-md leading-relaxed pt-5">{paragraphText}</p>
     </div>
   );
 }
-// <button className="rounded-lg border border-dark-purple bg-light-purple border-b-4 border-r-4  h-12 w-56 hover:bg-dark-purple ">
-//   Bli Medlem
-// </button>
-// className={`absolute top-0 ${
-
-//     nav ? 'left-0' : 'left-full'
-
-//   } right-0 bottom-0 flex justify-center items-center w-full h-screen sm:hidden bg-black text-center ease-in duration-300`}
 
 export default InfoCard;

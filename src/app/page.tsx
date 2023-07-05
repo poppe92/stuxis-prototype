@@ -8,7 +8,10 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
-      <Hero image="/heroImage.png">
+      <Hero
+        image="/heroImage.png"
+        borderColor="border-comfy-blue"
+        shadowColor="shadow-light-blue-shadow">
         <div className="flex flex-col items-center">
           <h1 className="flex flex-wrap items-center font-bold text-2xl text-comfy-blue pt-12 max-w-xl justify-center">
             Välkommen till
@@ -27,7 +30,7 @@ export default function Home() {
         </div>
       </Hero>
 
-      <div className="flex flex-col w-full items-center justify-center ">
+      <div className="flex flex-col w-full items-center justify-center text-xl">
         <p className="w-1/2 p-2 ">
           Stuxis är en ideellt driven öppen förskola i Stuxbergsgatans
           Fritidspark. Förkolan drivs av en föräldraförening som håller öppet,
@@ -49,9 +52,7 @@ export default function Home() {
         </div>
       </div>
       <BecomeMemberButton />
+      <div className="h-[400px]"></div>
     </main>
   );
 }
-// image="/heroImage.png"
-// logoImage="/Stuxis_Logo.png"
-// text="Välkommen till föräldraföreningen vid Stuxbergsgatans Fritidspa
