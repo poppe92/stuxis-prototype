@@ -60,7 +60,6 @@ function Membership() {
       <div className="flex items-center justify-center">
         <BecomeMemberButton />
       </div>
-      <div className="h-[400px]"></div>
     </main>
   );
 }
