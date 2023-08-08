@@ -20,7 +20,7 @@ function aboutUs() {
         {/* President */}
         <div>
           <Image
-            src="/jesperNBild.jpg"
+            src="/profileJesper_Square.jpg"
             height={300}
             width={300}
             alt="/"
@@ -34,7 +34,7 @@ function aboutUs() {
         {/* Paymaster */}
         <div>
           <Image
-            src="/jesperNBild.jpg"
+            src="/kerstinSquare.jpg"
             height={300}
             width={300}
             alt="/"
@@ -62,7 +62,7 @@ function aboutUs() {
 
       {/* History Div */}
       <div className="flex flex-col w-full items-center justify-center text-xl px-14">
-        <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">
+        <h1 className="text-2xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">
           Historia
         </h1>
         <p className="w-1/2 p-2">

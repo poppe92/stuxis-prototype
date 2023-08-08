@@ -28,7 +28,7 @@ function birthDays() {
           <p>
             Föreningen tar ut en avgift på{" "}
             <text className="underline decoration-light-comfy-red decoration-4 font-bold">
-              100 kr
+              200 kr
             </text>{" "}
             för barnkalas. Avgiften sätts in senast en vecka innan kalaset på
             förenings <text className="font-bold">Swish 123 207 31 87 </text>
