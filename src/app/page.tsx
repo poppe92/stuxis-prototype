@@ -13,7 +13,7 @@ export default function Home() {
         borderColor="border-comfy-blue"
         shadowColor="shadow-light-blue-shadow">
         <div className="flex flex-col items-center">
-          <h1 className="flex flex-wrap items-center font-bold text-2xl text-comfy-blue pt-12 max-w-xl justify-center">
+          <h1 className="flex flex-wrap items-center font-bold text-2xl text-comfy-blue pt-12 max-w-xl justify-center ">
             Välkommen till
             <Image
               src="/Stuxis_Logo.png"
@@ -52,7 +52,6 @@ export default function Home() {
         </div>
       </div>
       <BecomeMemberButton />
-      <div className="h-[400px]"></div>
     </main>
   );
 }
