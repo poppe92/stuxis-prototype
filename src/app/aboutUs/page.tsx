@@ -20,7 +20,7 @@ function aboutUs() {
         {/* President */}
         <div>
           <Image
-            src="/profileJesper_Square.jpg"
+            src="/lillaEbban.jpg"
             height={300}
             width={300}
             alt="/"

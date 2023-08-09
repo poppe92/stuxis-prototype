@@ -52,6 +52,30 @@ export default function Home() {
         </div>
       </div>
       <BecomeMemberButton />
+
+      {/* Latest News */}
+      <div className="flex flex-col items-center text-xl w-full">
+        <h1 className="flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
+          Senaste Nytt
+        </h1>
+        <div className="w-1/2">
+          <h2 className="text-l font-bold  text-comfy-blue underline decoration-light-comfy-red decoration-4 pb-2">
+            Stuxisdagen 19 augusti 2023!
+          </h2>
+          <p>
+            Kom och fira stuxisdagen med oss! Det blir besök av sommarskuggan,
+            hoppborg, korv, fika, filtloppis, ansiktsmålning och aktiviter.
+          </p>
+          <p>
+            Vill du vara med på filtloppis, ta med en egen filt och skriv ut ett
+            swishnummer, vi har inte möjlighet att bistå med det.
+          </p>
+          <p>
+            Alla medlemmar är välkomna! Är du inte medlem? Bli medlem idag eller
+            på plats!
+          </p>
+        </div>
+      </div>
     </main>
   );
 }
