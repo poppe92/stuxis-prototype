@@ -60,6 +60,7 @@ function activities() {
             borderColor: "green",
             editable: false,
           }}
+          lazyFetching={true}
         />
       </div>
     </div>
