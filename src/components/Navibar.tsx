@@ -12,7 +12,7 @@ function Navibar() {
         <NavigationItem link="/" text="Hem" />
         <NavigationItem link="/membership" text="Medlemskap" />
         <NavigationItem link="/openPreschool" text="Öppen Förskola" />
-        <NavigationItem link="/activities" text="Aktiviteter" />
+        <NavigationItem link="/activities" text="Aktiviteter och Kalender" />
         <NavigationItem link="/birthdays" text="Barnkalas" />
         <NavigationItem link="/aboutUs" text="Om Oss" />
         <NavigationItem link="/contact" text="Kontakt" />
