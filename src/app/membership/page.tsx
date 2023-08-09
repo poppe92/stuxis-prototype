@@ -2,6 +2,7 @@ import BecomeMemberButton from "@/components/BecomeMemberButton";
 import Hero from "@/components/Hero";
 import InfoCard from "@/components/InfoCard";
 import React from "react";
+import Image from "next/image";
 
 function Membership() {
   return (
@@ -20,7 +21,7 @@ function Membership() {
           <InfoCard
             image="/person_play.svg"
             headerText="Lek"
-            paragraphText="Tillgång till Öppen förskola med lek ute eller inne. En enklarefika till självkostnadspris finns att köpa."
+            paragraphText="Tillgång till öppen förskola med lek inomhus."
             backgroundColor="bg-light-comfy-blue"
             borderColor="border-comfy-blue"
             shadowColor="shadow-blue-shadow"
@@ -28,7 +29,7 @@ function Membership() {
           <InfoCard
             image="/door_sliding.svg"
             headerText="Boden"
-            paragraphText="Tillgång till koden till leksaksboden (trehjulingar, bobby Cars etc) så att du kan öppna för ditt barn när ni är i parken."
+            paragraphText="Tillgång till leksakboden med uteleksaker för alla åldrar."
             backgroundColor="bg-light-comfy-purple"
             borderColor="border-comfy-purple"
             shadowColor="shadow-purple-shadow"
@@ -36,7 +37,7 @@ function Membership() {
           <InfoCard
             image="/cake.svg"
             headerText="Barnkalas"
-            paragraphText="Möjlighet att låna lokalen för barnkalas, se regler längre ned på sidan."
+            paragraphText="Möjlighet att hyra lokalen för barnkalas."
             backgroundColor="bg-light-comfy-red"
             borderColor="border-comfy-red"
             shadowColor="shadow-red-shadow"
@@ -46,15 +47,24 @@ function Membership() {
 
       {/* Info Text */}
       <div className="flex flex-col w-full items-center justify-center text-xl p-14">
+        <div>
+          <Image src="/bodenWideBild.jpg" height={1500} width={1200} alt="/" />
+        </div>
         <p className="w-1/2 p-2">
-          Du som vill engagera dig mer aktivt i föreningen kan t.ex. vara med
-          och hålla öppet i lokalen under de tider vi har öppen förskola, vara
-          med i styrelsen eller ta dig an något mindre projekt. Det är alla vi
-          medlemmar som tillsammans gör föreningen sådan vi vill ha den!
+          Du som vill engagera dig mer aktivt i föreningen kan t.ex. hålla
+          lokalen öppen för öppen förskola, vara med i styrelsen eller ta dig an
+          något mindre projekt. Det är alla vi medlemmar som tillsammans gör
+          föreningen sådan vi vill ha den!
         </p>
         <p className="w-1/2 p-2">
           Om du har förslag rörande öppettider, aktiviteter eller annat så blir
-          vi i styrelsen glada om du hör av dig till StuxisParklek@gmail.com.
+          vi i styrelsen glada om du hör av dig till
+          <a
+            className="font-bold p-1 underline decoration-light-comfy-red decoration-3"
+            href="mailto:stuxisparklek@gmail.com">
+            stuxisparklek@gmail.com
+          </a>
+          .
         </p>
       </div>
       <div className="flex items-center justify-center">

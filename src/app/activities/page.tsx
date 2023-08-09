@@ -17,21 +17,45 @@ function activities() {
         </h1>
       </Hero>
 
-      <div className="flex flex-col w-full items-center justify-center text-xl px-14">
-        <h2 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">
+      {/* p    {/* History Div /}
+      <div className="flex flex-col w-full text-xl px-24 ">
+        <h1 className="text-2xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4  w-1/3 justfy-center text-center ">
           Stuxisdagen
-        </h2>
-        <p>Berätta lite om vad stuxisdagen är</p>
-        <h2 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">
+        </h1>
+        <div className="flex flex-col justify-center items-center">
+          <p className="w-2/3 p-2 ">
+          
+          </p> */}
+
+      <div className="flex flex-col w-full text-xl px-24 ">
+        <h1 className="font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4 justfy-center text-center ">
+          Stuxisdagen
+        </h1>
+        <div className="flex flex-col justify-center items-center">
+          <p className="w-2/3 p-2 ">
+            berätta om stuxisdagen berätta om stuxisdagen berätta om stuxisdagen
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col w-full text-xl px-24 ">
+        <h1 className="font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4 justfy-center text-center ">
           Styrelsemöten
-        </h2>
-        <p>beskriva lite hur ofta vi har styrelsemöten och vad vi pratar om</p>
-        <h2 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">
+        </h1>
+        <div className="flex flex-col justify-center items-center">
+          <p className="w-2/3 p-2 ">
+            beskriva lite hur ofta vi har styrelsemöten och vad vi pratar om
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col w-full text-xl px-24 ">
+        <h1 className="font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4 justfy-center text-center bg-green-200 ">
           Årsmöte
-        </h2>
-        <p>
-          Förklara kort att vi har årsmöte som alla medlemmar är välkomna på
-        </p>
+        </h1>
+        <div className="flex flex-col justify-center items-center">
+          <p className="w-2/3 p-2 ">
+            Förklara kort att vi har årsmöte som alla medlemmar är välkomna på
+          </p>
+        </div>
       </div>
 
       <h1 className="text-center font-bold text-2xl text-comfy-blue underline decoration-light-comfy-red decoration-4 py-12">

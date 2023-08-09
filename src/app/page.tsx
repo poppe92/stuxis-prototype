@@ -32,24 +32,32 @@ export default function Home() {
 
       <div className="flex flex-col w-full items-center justify-center text-xl">
         <p className="w-1/2 p-2 ">
-          Stuxis är en ideellt driven öppen förskola i Stuxbergsgatans
-          Fritidspark. Förkolan drivs av en föräldraförening som håller öppet,
-          sköter lokalen och köper in leksaker och material. Förskolelokalen är
-          fullt utrustad med leksaker, böcker och annat skoj! Själklart finns
-          toalett, skötbord och ett litet kök med micro där du kan värma mat.
-        </p>
-        <p className="w-1/2 p-2 ">
-          I anslutning till lokalen finns en leksaksbod med massor av roliga
-          utomhusleksaker som föreningens medlemmar har tillgång till.
+          Stuxis är en ideellt driven förening som drivs av Föräldraföreningen i
+          Stuxbergsgatans Fritidspark.
         </p>
 
-        <div className="flex flex-row pb-5 p-2 w-1/2">
-          Medlemskapet kostar
-          <p className="font-bold underline decoration-light-comfy-red decoration-4 px-1 ">
-            150 kr
+        <Image src="/stuxisFullImage.png" width={800} height={500} alt="/" />
+
+        <p className="w-1/2 p-2 ">
+          I parken finns en lokal som används till öppen förskola och hyrs ut
+          till barnkalas. I anslutning till lokalen finns en leksaksbod som
+          medlemmar i föreningen får tillgång till. Leksaksboden är fylld med
+          massor av roliga utomhusleksaker för alla åldrar. I parken finns även
+          en stor låda med sandlådeleksaker som man får låna som icke medlem.
+          roliga
+        </p>
+
+        <div className="p-2 w-1/2">
+          <p>
+            Medlemskapet kostar
+            <text className="font-bold underline decoration-light-comfy-red decoration-4 px-1 ">
+              150 kr
+            </text>
+            per kalenderår och gäller för en hel familj.
           </p>
-          per kalenderår och gäller för en hel familj.
         </div>
+
+        <p className="w-1/2 p-2">Läs mer och bli medlem här:</p>
       </div>
       <BecomeMemberButton />
 

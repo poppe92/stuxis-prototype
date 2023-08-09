@@ -16,7 +16,7 @@ function aboutUs() {
       </h1>
 
       {/* Image Container Div */}
-      <div className="flex w-full justify-center items-center p-4 gap-10">
+      <div className="flex w-full justify-center items-center gap-10 px-24">
         {/* President */}
         <div>
           <Image
@@ -61,11 +61,11 @@ function aboutUs() {
       </div>
 
       {/* History Div */}
-      <div className="flex flex-col w-full items-center justify-center text-xl px-14">
-        <h1 className="text-2xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">
+      <div className="flex flex-col justify-center items-center  bg-green-300 text-xl px-24">
+        <h1 className="text-2xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2  bg-green-200 w-2/3">
           Historia
         </h1>
-        <p className="w-1/2 p-2">
+        <p className="w-2/3 p-2">
           Tanken med lokalen i Stuxbergsparken var att den skulle vara ett
           allaktivitetshus när den byggdes någon gång under 60-talet. Den öppna
           förskolan i kommunal regi startade 1973 och stängde 2001. Under den
@@ -73,7 +73,7 @@ function aboutUs() {
           organiserade bland annat midsommarfirande och luciatåg, svunna tider
           som blivit förevigade på foton i fotopärmar som sparats i lokalen.
         </p>
-        <p className="w-1/2 p-2">
+        <p className="w-2/3 p-2">
           Orsakerna till stängningen av den öppna förskolan anses vara
           införandet av maxtaxereformen som trädde i kraft 2001 och som innebar
           att barn till arbetslösa och föräldralediga fick rätt till förskola,
@@ -81,7 +81,7 @@ function aboutUs() {
           dagverksamhet som därefter huserade i huset, om inte några föräldrar
           engagerat sig och kämpat för att förskolan fick vara kvar.
         </p>
-        <p className="w-1/2 p-2">
+        <p className="w-2/3 p-2">
           Efter ett ilsket brev och en inbjudan till ett möte med berörda
           parter, ordnade den dåvarande förskolechefen så att den nya
           föräldraföreningen fick behålla lokalerna och 2001 uppstod den öppna
@@ -89,7 +89,7 @@ function aboutUs() {
           mötespunkt för föräldrar som var sekulär, då t.ex. en indonesisk
           mammagrupp träffades veckovis i lokalen.
         </p>
-        <p className="w-1/2 p-2">
+        <p className="w-2/3 p-2">
           Men både lokalen och parken var i behov av upprustning. Under åren
           2006-2007 gjordes parken om med nya rutschkanor, sandlådor, gungor och
           balansbana i skogskanten. Även då hade föräldrar i närområdet varit
@@ -99,7 +99,7 @@ function aboutUs() {
           fick skriva upp sig för att måla. Kommunen satte in ett nytt pentry
           och en ny toalett.
         </p>
-        <p className="w-1/2 p-2">
+        <p className="w-2/3 p-2">
           Idag hålls lokalen öppen på ideell basis och är ett uppskattat
           tillhåll för föräldralediga med barn i närområdet. Välkomna hit för
           att göra er nya bekantskaper i området!
