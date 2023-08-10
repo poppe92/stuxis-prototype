@@ -7,6 +7,7 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import googlePlugin from "@fullcalendar/google-calendar";
+import List from "@/components/List";
 
 function activities() {
   return (
@@ -17,45 +18,51 @@ function activities() {
         </h1>
       </Hero>
 
-      {/* p    {/* History Div /}
-      <div className="flex flex-col w-full text-xl px-24 ">
-        <h1 className="text-2xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4  w-1/3 justfy-center text-center ">
+      <div className="flex flex-col justify-center items-center text-xl px-24">
+        <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
           Stuxisdagen
         </h1>
-        <div className="flex flex-col justify-center items-center">
-          <p className="w-2/3 p-2 ">
-          
-          </p> */}
-
-      <div className="flex flex-col w-full text-xl px-24 ">
-        <h1 className="font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4 justfy-center text-center ">
-          Stuxisdagen
-        </h1>
-        <div className="flex flex-col justify-center items-center">
-          <p className="w-2/3 p-2 ">
-            berätta om stuxisdagen berätta om stuxisdagen berätta om stuxisdagen
-          </p>
+        <p className="w-2/3 p-2 ">
+          Stuxisdagen är en dag som vi arrangerar för våra medlemmar en gång om
+          året på hösten. under stuxisdagen kommer det finnas:
+        </p>
+        <div className="w-2/3">
+          <List>
+            <p>Hoppborg blåses upp på gräsmattan</p>
+            <p>Ansiktsmålningar</p>
+            <p>Roliga aktiviteter</p>
+            <p>Hemliga besök</p>
+            <p>Filtloppis</p>
+            <p>Fika</p>
+            <p>Grillad korv</p>
+          </List>
         </div>
-      </div>
-      <div className="flex flex-col w-full text-xl px-24 ">
-        <h1 className="font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4 justfy-center text-center ">
+        <p className="w-2/3 p-2 ">
+          Vi letar alltid hjälp inför och under Stuxisdagen, om detta skulle
+          vara intressant kan man höra av sig till oss i styrelsen på
+          <a
+            className="font-bold p-1 underline decoration-light-comfy-red decoration-3"
+            href="mailto:stuxisparklek@gmail.com">
+            stuxisparklek@gmail.com
+          </a>
+        </p>
+        <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
           Styrelsemöten
         </h1>
-        <div className="flex flex-col justify-center items-center">
-          <p className="w-2/3 p-2 ">
-            beskriva lite hur ofta vi har styrelsemöten och vad vi pratar om
-          </p>
-        </div>
-      </div>
-      <div className="flex flex-col w-full text-xl px-24 ">
-        <h1 className="font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4 justfy-center text-center bg-green-200 ">
+        <p className="w-2/3 p-2 ">
+          Styrelsemöten hålls två till tre gånger per år och sedan efter behov.
+          Vill man engagera sig i styrelsen kan man läsa mer om det här: “om
+          oss”
+        </p>
+        <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
           Årsmöte
         </h1>
-        <div className="flex flex-col justify-center items-center">
-          <p className="w-2/3 p-2 ">
-            Förklara kort att vi har årsmöte som alla medlemmar är välkomna på
-          </p>
-        </div>
+        <p className="w-2/3 p-2 ">
+          Årsmöte hålls en gång om året och det är då välkommet för alla
+          medlemmar som vill vara med att komma ner. Då bestämmer vi datum för
+          stuxisdagen, städdag och vad som ska köpas in, som inte köps in på
+          löpande band.
+        </p>
       </div>
 
       <h1 className="text-center font-bold text-2xl text-comfy-blue underline decoration-light-comfy-red decoration-4 py-12">
