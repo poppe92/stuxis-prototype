@@ -11,9 +11,33 @@ function aboutUs() {
         </h1>
       </Hero>
 
-      <h1 className="w-full px-24 flex justify-center text-center font-bold text-2xl text-comfy-blue underline decoration-light-comfy-red decoration-4 pb-12">
-        Styrelse
-      </h1>
+      <div className="flex flex-col justify-center items-center text-xl px-24 py-4">
+        <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
+          Styrelse
+        </h1>
+        <p className="w-2/3 p-2">
+          Att sitta i styrelsen innebär att engagera sig för att Stuxis ska vara
+          så fint som det bara går. Det är frivilligt och ger inga förmåner,
+          utan är för att man vill att alla ska ha en fin lekplats att kunna gå
+          till. Vi har ca 3 möten om året, som inte brukar ta mer än en timme.
+          Det är också styrelsen som sköter hemsidan, all PR (facebook,
+          instagram osv), medlemskap, betalningar och allmänt underhåll av
+          lokalen (som städ och inventering).
+        </p>
+
+        <p className="w-2/3 p-2">
+          Styrelsen består av 3 till 6 medlemmar, där det är två som står som
+          firmatecknare (ordförande och kassör) och 1 till 4 medlemmar som är
+          suppleanter. Detta är dock bara titlar, vi delar på uppgifterna så
+          mycket det går och stöttar varandra oavsett vad man är ansvarig för.
+        </p>
+
+        <p className="w-2/3 p-2">
+          Utan en styrelse kommer föreningen läggas ner, så om man kan tänka sig
+          att bara finnas där som en suppleant utan några större ansvar mottas
+          detta lika väl.
+        </p>
+      </div>
 
       {/* Image Container Div */}
       <div className="flex w-full justify-center items-center gap-10 px-24">
@@ -62,7 +86,7 @@ function aboutUs() {
 
       {/* History Div */}
       <div className="flex flex-col justify-center items-center text-xl px-24">
-        <h1 className="text-2xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
+        <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
           Historia
         </h1>
         <p className="w-2/3 p-2">
