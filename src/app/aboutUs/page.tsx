@@ -86,11 +86,7 @@ function aboutUs() {
 
       {/* History Div */}
       <div className="flex flex-col justify-center items-center text-xl px-24">
-<<<<<<< HEAD
-        <h1 className="text-2xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
-=======
         <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
->>>>>>> d254513 (Added texts for About us and membership)
           Historia
         </h1>
         <p className="w-2/3 p-2">
