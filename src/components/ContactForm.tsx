@@ -144,7 +144,7 @@ function ContactForm() {
           ref={messageRef}></textarea>
       </div>
       <HCaptcha
-        sitekey={process.env.NEXT_PUBLIC_SITE_KEY as string}
+        sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
         onVerify={onHCaptchaChange}
       />
       <div className="w-full flex flex-wrap pt-6">
