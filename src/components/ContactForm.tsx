@@ -2,22 +2,26 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import React, { useRef, useState } from "react";
-
-const initValues = { firstName: "", lastName: "", email: "", message: "" };
-
-const initState = { values: initValues };
+import { useForm } from "react-hook-form";
+import HCaptcha from "@hcaptcha/react-hcaptcha";
 
 function ContactForm() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [messageSent, setMessageSent] = useState(false);
 
+  const { setValue, handleSubmit } = useForm();
+
   const firstNameRef = useRef<HTMLInputElement>(null);
   const lastNameRef = useRef<HTMLInputElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
   const messageRef = useRef<HTMLTextAreaElement>(null);
 
-  async function handleSubmit(event: any) {
+  const onHCaptchaChange = (token: string) => {
+    setValue("h-captcha-response", token);
+  };
+
+  async function onSubmit(event: any) {
     event.preventDefault();
     setLoading(true);
 
@@ -57,7 +61,9 @@ function ContactForm() {
   }
 
   return (
-    <form className="flex flex-wrap w-1/2 p-12" onSubmit={handleSubmit}>
+    <form
+      className="flex flex-wrap w-1/2 p-12"
+      onSubmit={handleSubmit(onSubmit)}>
       <span className="w-full text-2xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4 text-center">
         Skicka ett mail till oss
       </span>
@@ -137,6 +143,10 @@ function ContactForm() {
           className="w-full block overflow-auto resize-y min-h-[140px] p-6"
           ref={messageRef}></textarea>
       </div>
+      <HCaptcha
+        sitekey={process.env.NEXT_PUBLIC_SITE_KEY as string}
+        onVerify={onHCaptchaChange}
+      />
       <div className="w-full flex flex-wrap pt-6">
         <button
           className=" disabled:text-black disabled:bg-gray-400  disabled:shadow-black  rounded-lg border-2 border-solid shadow-purple-button-shadow bg-light-comfy-purple h-12 w-full hover:bg-comfy-purple border-comfy-purple hover:text-white"
