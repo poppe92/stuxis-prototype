@@ -23,7 +23,13 @@ function openPreschool() {
           där man kan värma mat.
         </p>
 
-        <Image src="/stuxisFullImage.png" width={800} height={500} alt="/" />
+        <Image
+          src="/stuxisInsideAndOutside.jpg"
+          width={1000}
+          height={500}
+          alt="/"
+          className="w-1/2 p-2 flex flex-col justify-center"
+        />
 
         <p className="w-1/2 p-2 ">
           För tillfället har vi inte öppet lokalen på vardagar, men söker dig
@@ -39,7 +45,7 @@ function openPreschool() {
         <p className="w-1/2 p-2 ">
           Följ oss på
           <Link
-            className="font-bold underline decoration-3 p-1"
+            className="font-bold underline decoration-3 p-1 decoration-light-comfy-red"
             href="https://facebook.com/stuxis">
             Facebook
           </Link>

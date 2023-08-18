@@ -81,7 +81,7 @@ function Footer() {
             className="text-comfy-blue text-2xl"
           />
           <div className="w-1/2">
-            <p>Phone</p>
+            <p>Telefon till styrelsen</p>
             <p>(+46) 709 49 49 59</p>
           </div>
         </div>

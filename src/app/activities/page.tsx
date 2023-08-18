@@ -8,6 +8,7 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import googlePlugin from "@fullcalendar/google-calendar";
 import List from "@/components/List";
+import Link from "next/link";
 
 function activities() {
   return (
@@ -45,19 +46,22 @@ function activities() {
             href="mailto:stuxisparklek@gmail.com">
             stuxisparklek@gmail.com
           </a>
+          .
         </p>
         <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
           Styrelsemöten
         </h1>
-        <p className="w-2/3 p-2 ">
+        <p className="w-2/3 p-2">
           Styrelsemöten hålls två till tre gånger per år och sedan efter behov.
-          Vill man engagera sig i styrelsen kan man läsa mer om det här: “om
-          oss”
+          Vill man engagera sig i styrelsen kan man läsa mer om det här:
+          <Link href="/aboutUs#board" className="p-1 font-bold text-comfy-blue">
+            Om Oss
+          </Link>
         </p>
         <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
           Årsmöte
         </h1>
-        <p className="w-2/3 p-2 ">
+        <p className="w-2/3 p-2">
           Årsmöte hålls en gång om året och det är då välkommet för alla
           medlemmar som vill vara med att komma ner. Då bestämmer vi datum för
           stuxisdagen, städdag och vad som ska köpas in, som inte köps in på
@@ -70,29 +74,31 @@ function activities() {
       </h1>
 
       {/* calendar grid */}
-      <div className="w-full justify-center items-center bg-reen-200 px-24">
-        <FullCalendar
-          plugins={[
-            dayGridPlugin,
-            timeGridPlugin,
-            interactionPlugin,
-            googlePlugin,
-          ]}
-          initialView="dayGridMonth"
-          headerToolbar={{
-            start: "today prev,next",
-            center: "title",
-            end: "dayGridMonth,timeGridWeek,timeGridDay",
-          }}
-          height={600}
-          googleCalendarApiKey={process.env.NEXT_PUBLIC_API_KEY}
-          events={{
-            googleCalendarId: "stuxisparklek@gmail.com",
-            borderColor: "green",
-            editable: false,
-          }}
-          lazyFetching={true}
-        />
+      <div id="calendar" className="w-full flex justify-center px-24">
+        <div className="w-2/3 p-2">
+          <FullCalendar
+            plugins={[
+              dayGridPlugin,
+              timeGridPlugin,
+              interactionPlugin,
+              googlePlugin,
+            ]}
+            initialView="dayGridMonth"
+            headerToolbar={{
+              start: "today prev,next",
+              center: "title",
+              end: "dayGridMonth,timeGridWeek,timeGridDay",
+            }}
+            height={600}
+            googleCalendarApiKey={process.env.NEXT_PUBLIC_API_KEY}
+            events={{
+              googleCalendarId: "stuxisparklek@gmail.com",
+              borderColor: "green",
+              editable: false,
+            }}
+            lazyFetching={true}
+          />
+        </div>
       </div>
     </div>
   );

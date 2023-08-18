@@ -4,14 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
-  function handleClick() {}
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
-      <Hero
-        image="/heroImage.png"
-        borderColor="border-comfy-blue"
-        shadowColor="shadow-light-blue-shadow">
+      <Hero image="/heroImage.png">
         <div className="flex flex-col items-center">
           <h1 className="flex flex-wrap items-center font-bold text-2xl text-comfy-blue pt-12 max-w-xl justify-center ">
             Välkommen till
@@ -36,7 +31,13 @@ export default function Home() {
           Stuxbergsgatans Fritidspark.
         </p>
 
-        <Image src="/stuxisFullImage.png" width={800} height={500} alt="/" />
+        <Image
+          src="/stuxisFullImage.png"
+          width={1000}
+          height={600}
+          alt="/"
+          className="flex w-1/2 p-2 justify-center"
+        />
 
         <p className="w-1/2 p-2 ">
           I parken finns en lokal som används till öppen förskola och hyrs ut
@@ -50,15 +51,22 @@ export default function Home() {
         <div className="p-2 w-1/2">
           <p>
             Medlemskapet kostar
-            <text className="font-bold underline decoration-light-comfy-red decoration-4 px-1 ">
+            <span className="font-bold underline decoration-light-comfy-red decoration-4 px-1 ">
               150 kr
-            </text>
+            </span>
             per kalenderår och gäller för en hel familj.
           </p>
         </div>
 
-        <p className="w-1/2 p-2">Läs mer och bli medlem här:</p>
+        <p className="w-1/2 p-2">
+          Läs mer{" "}
+          <Link href="/membership" className="text-comfy-blue font-bold">
+            här
+          </Link>{" "}
+          eller bli medlem direkt med knappen:
+        </p>
       </div>
+
       <BecomeMemberButton />
 
       {/* Latest News */}

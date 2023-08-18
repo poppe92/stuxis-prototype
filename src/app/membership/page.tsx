@@ -15,9 +15,9 @@ function Membership() {
       {/* Wrapper */}
       <div className="relative mx-auto">
         {/* Background */}
-        <div className="absolute bg-comfy-yellow w-full -z-10 top-4 left-7 h-[calc(100%+16px)]  rounded-lg"></div>
+        <div className="absolute bg-comfy-yellow w-full -z-10 top-4 left-7 h-[calc(100%+16px)]  rounded-lg" />
         {/* Cards */}
-        <div className="flex content-between gap-6">
+        <div className="flex content-between gap-6 flex-wrap">
           <InfoCard
             image="/person_play.svg"
             headerText="Lek"
@@ -47,7 +47,7 @@ function Membership() {
 
       {/* Info Text */}
       <div className="flex flex-col w-full items-center justify-center text-xl p-14">
-        <div>
+        <div className="w-1/2 p-2 flex justify-center">
           <Image src="/bodenWideBild.jpg" height={1500} width={1200} alt="/" />
         </div>
         <p className="w-1/2 p-2">

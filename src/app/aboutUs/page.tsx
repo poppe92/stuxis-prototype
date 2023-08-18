@@ -11,7 +11,9 @@ function aboutUs() {
         </h1>
       </Hero>
 
-      <div className="flex flex-col justify-center items-center text-xl px-24 py-4">
+      <div
+        id="board"
+        className="flex flex-col justify-center items-center text-xl px-24 py-4">
         <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
           Styrelse
         </h1>
@@ -40,7 +42,7 @@ function aboutUs() {
       </div>
 
       {/* Image Container Div */}
-      <div className="flex w-full justify-center items-center gap-10 px-24">
+      <div className="flex w-full justify-center items-center gap-10 px-24 flex-wrap">
         {/* President */}
         <div>
           <Image

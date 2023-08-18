@@ -11,6 +11,7 @@ function Navibar() {
       <ul className="flex flex-row justify-center items-center text-center">
         <NavigationItem link="/" text="Hem" />
         <NavigationItem link="/membership" text="Medlemskap" />
+        <NavigationItem link="/gallery" text="Galleri" />
         <NavigationItem link="/openPreschool" text="Öppen Förskola" />
         <NavigationItem link="/activities" text="Aktiviteter och Kalender" />
         <NavigationItem link="/birthdays" text="Barnkalas" />
