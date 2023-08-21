@@ -31,9 +31,6 @@ export const SliderData = [
         image: "/images/stuxisKitchen_5.jpg",
     },
     {
-        image: "/images/stuxisDayFlyer_1.jpg",
-    },
-    {
         image: "/images/stuxisInsideAndOutside.jpg",
     },
     {
