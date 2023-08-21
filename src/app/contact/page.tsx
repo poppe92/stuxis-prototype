@@ -14,8 +14,8 @@ import ContactForm from "@/components/ContactForm";
 
 function contact() {
   return (
-    <div>
-      <Hero image="/heroImage.png">
+    <>
+      <Hero image="/images/heroImage.png">
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
           Kontakta Oss
         </h1>
@@ -28,7 +28,7 @@ function contact() {
         <ContactForm />
 
         {/* Image with info */}
-        <div className=" bg-[url('/stuxisAvlang.png')] w-1/2 bg-cover bg-repeat bg-center z-10  relative p-7 flex flex-col items-center justify-center before:-z-10 before:w-full before:h-full before:block before:absolute before:bg-[rgb(0,0,0,0.7)] text-white">
+        <div className=" bg-[url('/images/stuxisAvlang.png')] w-1/2 bg-cover bg-repeat bg-center z-10  relative p-7 flex flex-col items-center justify-center before:-z-10 before:w-full before:h-full before:block before:absolute before:bg-[rgb(0,0,0,0.7)] text-white">
           {/* Adress */}
           <div>
             <div className="flex items-center text-left gap-4 py-6">
@@ -67,7 +67,7 @@ function contact() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 export default contact;

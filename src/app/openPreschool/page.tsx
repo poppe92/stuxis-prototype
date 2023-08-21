@@ -5,8 +5,8 @@ import Link from "next/link";
 
 function openPreschool() {
   return (
-    <div>
-      <Hero image="/heroImage.png">
+    <>
+      <Hero image="/images/heroImage.png">
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
           Öppen Förskola
         </h1>
@@ -24,7 +24,7 @@ function openPreschool() {
         </p>
 
         <Image
-          src="/stuxisInsideAndOutside.jpg"
+          src="/images/stuxisInsideAndOutside.jpg"
           width={1000}
           height={500}
           alt="/"
@@ -52,7 +52,7 @@ function openPreschool() {
           för aktuell information och ändringar gällande öppettider.
         </p>
       </div>
-    </div>
+    </>
   );
 }
 

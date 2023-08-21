@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
-      <Hero image="/heroImage.png">
+      <Hero image="/images/heroImage.png">
         <div className="flex flex-col items-center">
           <h1 className="flex flex-wrap items-center font-bold text-2xl text-comfy-blue pt-12 max-w-xl justify-center ">
             Välkommen till
@@ -32,7 +32,7 @@ export default function Home() {
         </p>
 
         <Image
-          src="/stuxisFullImage.png"
+          src="/images/stuxisFullImage.png"
           width={1000}
           height={600}
           alt="/"

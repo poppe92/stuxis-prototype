@@ -1,12 +1,42 @@
 
 export const SliderData = [
     {
-        image: "/lillaEbban.jpg",
+        image: "/images/stuxisFullImage.png",
     },
     {
-        image: 'https://images.unsplash.com/photo-1575783970733-1aaedde1db74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80'
+        image: "/images/stuxisBoden_1.jpg",
     },
     {
-        image: 'https://images.unsplash.com/photo-1552537595-b30edb7afd9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80'
-    }
+        image: "/images/stuxisBoden_2.jpg",
+    },
+    {
+        image: "/images/stuxisInside_1.jpg",
+    },
+    {
+        image: "/images/stuxisInside_2.jpg",
+    },
+    {
+        image: "/images/stuxisKitchen_1.jpg",
+    },
+    {
+        image: "/images/stuxisKitchen_2.jpg",
+    },
+    {
+        image: "/images/stuxisKitchen_3.jpg",
+    },
+    {
+        image: "/images/stuxisKitchen_4.jpg",
+    },
+    {
+        image: "/images/stuxisKitchen_5.jpg",
+    },
+    {
+        image: "/images/stuxisDayFlyer_1.jpg",
+    },
+    {
+        image: "/images/stuxisInsideAndOutside.jpg",
+    },
+    {
+        image: "/images/stuxisKitchenAndInside.jpg",
+    },
 ];

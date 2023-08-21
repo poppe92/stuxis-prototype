@@ -6,8 +6,8 @@ import React from "react";
 
 function birthDays() {
   return (
-    <main>
-      <Hero image="/birthdayImage.png">
+    <>
+      <Hero image="/images/birthdayImage.png">
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
           Barnkalas
         </h1>
@@ -60,14 +60,14 @@ function birthDays() {
         </div>
         <div id="calendar" className="flex w-1/2">
           <Image
-            src="/stuxisKitchenAndInside.jpg"
+            src="/images/stuxisKitchenAndInside.jpg"
             width={1000}
             height={600}
             alt="/"
             className="w-1/2 p-2"
           />
           <Image
-            src="/stuxisInsideAndOutside.jpg"
+            src="/images/stuxisInsideAndOutside.jpg"
             width={1000}
             height={600}
             alt="/"
@@ -75,7 +75,7 @@ function birthDays() {
           />
         </div>
       </div>
-    </main>
+    </>
   );
 }
 

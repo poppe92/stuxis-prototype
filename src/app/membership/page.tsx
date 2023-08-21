@@ -7,7 +7,7 @@ import Image from "next/image";
 function Membership() {
   return (
     <main className="flex flex-col justify-between">
-      <Hero image="/heroImage.png">
+      <Hero image="/images/heroImage.png">
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
           Medlemsförmåner
         </h1>
@@ -48,7 +48,12 @@ function Membership() {
       {/* Info Text */}
       <div className="flex flex-col w-full items-center justify-center text-xl p-14">
         <div className="w-1/2 p-2 flex justify-center">
-          <Image src="/bodenWideBild.jpg" height={1500} width={1200} alt="/" />
+          <Image
+            src="/images/bodenWideBild.jpg"
+            height={1500}
+            width={1200}
+            alt="/"
+          />
         </div>
         <p className="w-1/2 p-2">
           Du som vill engagera dig mer aktivt i föreningen kan t.ex. hålla

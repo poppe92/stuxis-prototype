@@ -9,11 +9,13 @@ import interactionPlugin from "@fullcalendar/interaction";
 import googlePlugin from "@fullcalendar/google-calendar";
 import List from "@/components/List";
 import Link from "next/link";
+import Slider from "@/components/Slider";
+import { StuxisDagen } from "@/components/StuxisDagen";
 
 function activities() {
   return (
-    <div>
-      <Hero image="/heroImage.png">
+    <>
+      <Hero image="/images/heroImage.png">
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
           Aktiviteter
         </h1>
@@ -23,9 +25,9 @@ function activities() {
         <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
           Stuxisdagen
         </h1>
-        <p className="w-2/3 p-2 ">
+        <p className="w-2/3 p-2">
           Stuxisdagen är en dag som vi arrangerar för våra medlemmar en gång om
-          året på hösten. under stuxisdagen kommer det finnas:
+          året. Under stuxisdagen kommer det finnas:
         </p>
         <div className="w-2/3">
           <List>
@@ -48,6 +50,11 @@ function activities() {
           </a>
           .
         </p>
+
+        <div className="w-2/3">
+          <Slider slides={StuxisDagen} />
+        </div>
+
         <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
           Styrelsemöten
         </h1>
@@ -100,7 +107,7 @@ function activities() {
           />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

@@ -5,7 +5,7 @@ import Image from "next/image";
 function aboutUs() {
   return (
     <>
-      <Hero image="/heroImage.png">
+      <Hero image="/images/heroImage.png">
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12 underline decoration-light-comfy-red decoration-4 pb-12 ">
           Om oss
         </h1>
@@ -46,7 +46,7 @@ function aboutUs() {
         {/* President */}
         <div>
           <Image
-            src="/lillaEbban.jpg"
+            src="/images/lillaEbban.jpg"
             height={300}
             width={300}
             alt="/"
@@ -60,7 +60,7 @@ function aboutUs() {
         {/* Paymaster */}
         <div>
           <Image
-            src="/kerstinSquare.jpg"
+            src="/images/kerstinSquare.jpg"
             height={300}
             width={300}
             alt="/"
@@ -74,7 +74,7 @@ function aboutUs() {
         {/* Deputy's */}
         <div>
           <Image
-            src="/nathalie.jpg"
+            src="/images/nathalie.jpg"
             height={300}
             width={300}
             alt="/"

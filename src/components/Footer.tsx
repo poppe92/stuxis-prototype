@@ -11,6 +11,8 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 
+import { faCircle } from "@fortawesome/free-regular-svg-icons";
+
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 
@@ -26,23 +28,19 @@ function Footer() {
           alt="/"
           className="flex justify-center items-center"
         />
-        <a
-          href="https://facebook.com/stuxis"
-          className="outline outline-offset-8 rounded-2xl outline-2 text-comfy-blue"
-          target="_blank">
-          <FontAwesomeIcon
-            icon={faFacebookF}
-            className="text-lg text-comfy-blue"
-          />
+        <a href="https://facebook.com/stuxis" target="_blank">
+          <span className="fa-layers fa-fw fa-2xl text-comfy-blue">
+            <FontAwesomeIcon icon={faCircle} />
+            <FontAwesomeIcon icon={faFacebookF} transform="shrink-6" />
+          </span>
         </a>
         <a
           href="https://www.instagram.com/stuxbergsgatans_fritidspark/"
-          className="outline outline-offset-8 rounded-2xl outline-2 text-comfy-blue"
           target="_blank">
-          <FontAwesomeIcon
-            icon={faInstagram}
-            className="text-lg text-comfy-blue"
-          />
+          <span className="fa-layers fa-fw fa-2xl text-comfy-blue">
+            <FontAwesomeIcon icon={faCircle} />
+            <FontAwesomeIcon icon={faInstagram} transform="shrink-6" />
+          </span>
         </a>
       </div>
 
