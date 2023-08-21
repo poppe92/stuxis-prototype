@@ -62,5 +62,8 @@ export const StuxisDagen = [
     },
     {
         image: "/stuxisdagen/stuxisDagen2023_21.jpg",
+    },
+    {
+        image: "/stuxisdagen/stuxisDagen2023_22.jpg",
     }
 ];
