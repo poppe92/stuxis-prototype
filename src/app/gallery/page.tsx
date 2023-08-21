@@ -11,7 +11,7 @@ function Gallery() {
           Galleri
         </h1>
       </Hero>
-      <div className="m-auto max-w-5xl">
+      <div className="flex justify-center items-center m-auto max-w-5xl h-[75vh]">
         <Slider slides={SliderData} />
       </div>
     </>

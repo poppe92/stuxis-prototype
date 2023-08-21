@@ -42,7 +42,12 @@ function Slider({ slides }: SliderProps) {
                 className="absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[2]"
               />
               {index === current && (
-                <Image src={slide.image} alt="/" priority />
+                <Image
+                  src={slide.image}
+                  alt="/"
+                  priority
+                  className="rounded-lg"
+                />
               )}
               <FaArrowCircleRight
                 onClick={nextSlide}

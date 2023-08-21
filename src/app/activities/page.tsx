@@ -10,7 +10,7 @@ import googlePlugin from "@fullcalendar/google-calendar";
 import List from "@/components/List";
 import Link from "next/link";
 import Slider from "@/components/Slider";
-import { StuxisDagen } from "@/components/StuxisDagen";
+import { StuxisDagen } from "@/components/StuxisDagen2023";
 
 function activities() {
   return (

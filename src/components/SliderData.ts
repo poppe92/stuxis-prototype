@@ -1,4 +1,4 @@
-import img1 from "/public/images/stuxisFullImage.png"
+import img1 from "/public/images/stuxisFullImageGalleryRatio.png"
 import img2 from "/public/images/stuxisBoden_1.jpg"
 import img3 from "/public/images/stuxisBoden_2.jpg"
 import img4 from "/public/images/stuxisKitchen_1.jpg"
@@ -6,10 +6,8 @@ import img5 from "/public/images/stuxisKitchen_2.jpg"
 import img6 from "/public/images/stuxisKitchen_3.jpg"
 import img7 from "/public/images/stuxisKitchen_4.jpg"
 import img8 from "/public/images/stuxisKitchen_5.jpg"
-import img9 from "/public/images/stuxisInsideAndOutside.jpg"
-import img10 from "/public/images/stuxisKitchenAndInside.jpg"
-import img11 from "/public/images/stuxisInside_1.jpg"
-import img12 from "/public/images/stuxisInside_2.jpg"
+import img9 from "/public/images/stuxisInside_1.jpg"
+import img10 from "/public/images/stuxisInside_2.jpg"
 
 export const SliderData = [
     {
@@ -41,11 +39,5 @@ export const SliderData = [
     },
     {
         image: img10,
-    },
-    {
-        image: img11,
-    },
-    {
-        image: img12,
     },
 ];
