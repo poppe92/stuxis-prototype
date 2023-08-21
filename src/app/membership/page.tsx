@@ -19,7 +19,7 @@ function Membership() {
         {/* Cards */}
         <div className="flex content-between gap-6 flex-wrap">
           <InfoCard
-            image="/person_play.svg"
+            image="/svg/person_play.svg"
             headerText="Lek"
             paragraphText="Tillgång till öppen förskola med lek inomhus."
             backgroundColor="bg-light-comfy-blue"
@@ -27,7 +27,7 @@ function Membership() {
             shadowColor="shadow-blue-shadow"
           />
           <InfoCard
-            image="/door_sliding.svg"
+            image="/svg/door_sliding.svg"
             headerText="Boden"
             paragraphText="Tillgång till leksakboden med uteleksaker för alla åldrar."
             backgroundColor="bg-light-comfy-purple"
@@ -35,7 +35,7 @@ function Membership() {
             shadowColor="shadow-purple-shadow"
           />
           <InfoCard
-            image="/cake.svg"
+            image="/svg/cake.svg"
             headerText="Barnkalas"
             paragraphText="Möjlighet att hyra lokalen för barnkalas."
             backgroundColor="bg-light-comfy-red"

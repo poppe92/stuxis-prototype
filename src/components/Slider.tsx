@@ -1,12 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import { SliderData } from "./SliderData";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
-import next from "next/types";
 
 export type SliderProps = {
-  slides: { image: string }[];
+  slides: { image: StaticImageData }[];
 };
 
 function Slider({ slides }: SliderProps) {
@@ -44,7 +42,7 @@ function Slider({ slides }: SliderProps) {
                 className="absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[2]"
               />
               {index === current && (
-                <Image width="1440" height="600" src={slide.image} alt="/" />
+                <Image src={slide.image} alt="/" priority />
               )}
               <FaArrowCircleRight
                 onClick={nextSlide}

@@ -1,69 +1,91 @@
+import img1 from "/public/stuxisdagen/stuxisDagen2023_1.jpg"
+import img2 from "/public/stuxisdagen/stuxisDagen2023_2.jpg"
+import img3 from "/public/stuxisdagen/stuxisDagen2023_3.jpg"
+import img4 from "/public/stuxisdagen/stuxisDagen2023_4.jpg"
+import img5 from "/public/stuxisdagen/stuxisDagen2023_5.jpg"
+import img6 from "/public/stuxisdagen/stuxisDagen2023_6.jpg"
+import img7 from "/public/stuxisdagen/stuxisDagen2023_7.jpg"
+import img8 from "/public/stuxisdagen/stuxisDagen2023_8.jpg"
+import img9 from "/public/stuxisdagen/stuxisDagen2023_9.jpg"
+import img10 from "/public/stuxisdagen/stuxisDagen2023_10.jpg"
+import img11 from "/public/stuxisdagen/stuxisDagen2023_11.jpg"
+import img12 from "/public/stuxisdagen/stuxisDagen2023_12.jpg"
+import img13 from "/public/stuxisdagen/stuxisDagen2023_13.jpg"
+import img14 from "/public/stuxisdagen/stuxisDagen2023_14.jpg"
+import img15 from "/public/stuxisdagen/stuxisDagen2023_15.jpg"
+import img16 from "/public/stuxisdagen/stuxisDagen2023_16.jpg"
+import img17 from "/public/stuxisdagen/stuxisDagen2023_17.jpg"
+import img18 from "/public/stuxisdagen/stuxisDagen2023_18.jpg"
+import img19 from "/public/stuxisdagen/stuxisDagen2023_19.jpg"
+import img20 from "/public/stuxisdagen/stuxisDagen2023_20.jpg"
+import img21 from "/public/stuxisdagen/stuxisDagen2023_21.jpg"
+import img22 from "/public/stuxisdagen/stuxisDagen2023_22.jpg"
 
 export const StuxisDagen = [
     {
-        image: "/stuxisdagen/stuxisDagen2023_1.jpg",
+        image: img1, 
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_2.jpg",
+        image: img2, 
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_3.jpg",
+        image: img3,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_4.jpg",
+        image: img4,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_5.jpg",
+        image: img5,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_6.jpg",
+        image: img6,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_7.jpg",
+        image: img7,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_8.jpg",
+        image: img8,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_9.jpg",
+        image: img9,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_10.jpg",
+        image: img10,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_11.jpg",
+        image: img11,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_12.jpg",
+        image: img12,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_13.jpg",
+        image: img13,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_14.jpg",
+        image: img14,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_15.jpg",
+        image: img15,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_16.jpg",
+        image: img16,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_17.jpg",
+        image: img17,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_18.jpg",
+        image: img18,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_19.jpg",
+        image: img19,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_20.jpg",
+        image: img20,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_21.jpg",
+        image: img21,
     },
     {
-        image: "/stuxisdagen/stuxisDagen2023_22.jpg",
+        image: img22,
     }
 ];

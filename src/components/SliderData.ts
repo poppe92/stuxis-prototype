@@ -1,39 +1,51 @@
+import img1 from "/public/images/stuxisFullImage.png"
+import img2 from "/public/images/stuxisBoden_1.jpg"
+import img3 from "/public/images/stuxisBoden_2.jpg"
+import img4 from "/public/images/stuxisKitchen_1.jpg"
+import img5 from "/public/images/stuxisKitchen_2.jpg"
+import img6 from "/public/images/stuxisKitchen_3.jpg"
+import img7 from "/public/images/stuxisKitchen_4.jpg"
+import img8 from "/public/images/stuxisKitchen_5.jpg"
+import img9 from "/public/images/stuxisInsideAndOutside.jpg"
+import img10 from "/public/images/stuxisKitchenAndInside.jpg"
+import img11 from "/public/images/stuxisInside_1.jpg"
+import img12 from "/public/images/stuxisInside_2.jpg"
 
 export const SliderData = [
     {
-        image: "/images/stuxisFullImage.png",
+        image: img1,
     },
     {
-        image: "/images/stuxisBoden_1.jpg",
+        image: img2, 
     },
     {
-        image: "/images/stuxisBoden_2.jpg",
+        image: img3,
     },
     {
-        image: "/images/stuxisInside_1.jpg",
+        image: img4,
     },
     {
-        image: "/images/stuxisInside_2.jpg",
+        image: img5,
     },
     {
-        image: "/images/stuxisKitchen_1.jpg",
+        image: img6,
     },
     {
-        image: "/images/stuxisKitchen_2.jpg",
+        image: img7,
     },
     {
-        image: "/images/stuxisKitchen_3.jpg",
+        image: img8,
     },
     {
-        image: "/images/stuxisKitchen_4.jpg",
+        image: img9,
     },
     {
-        image: "/images/stuxisKitchen_5.jpg",
+        image: img10,
     },
     {
-        image: "/images/stuxisInsideAndOutside.jpg",
+        image: img11,
     },
     {
-        image: "/images/stuxisKitchenAndInside.jpg",
+        image: img12,
     },
 ];
