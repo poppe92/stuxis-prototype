@@ -45,8 +45,10 @@ function Slider({ slides }: SliderProps) {
                 <Image
                   src={slide.image}
                   alt="/"
-                  priority
+                  priority={true}
                   className="rounded-lg"
+                  placeholder="blur"
+                  quality={65}
                 />
               )}
               <FaArrowCircleRight
