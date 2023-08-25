@@ -22,7 +22,7 @@ function Footer() {
       {/* Website image */}
       <div className="w-1/3 text-center flex flex-col gap-6 justify-enter items-center">
         <Image
-          src="/Stuxis_Logo.png"
+          src="/Stuxis_Logo.webp"
           height={100}
           width={100}
           alt="/"

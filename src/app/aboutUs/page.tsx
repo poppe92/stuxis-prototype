@@ -3,10 +3,10 @@ import React from "react";
 import Image from "next/image";
 
 // import images
-import imgJesper from "public/images/lillaEbban.jpg";
-import imgKerstin from "public/images/kerstinSquare.jpg";
-import imgNathalie from "public/images/nathalie.jpg";
-import heroImage from "public/images/heroImage.png";
+import imgJesper from "public/images/lillaEbban.webp";
+import imgKerstin from "public/images/kerstinSquare.webp";
+import imgNathalie from "public/images/nathalie.webp";
+import heroImage from "public/images/heroImage.webp";
 
 function aboutUs() {
   return (

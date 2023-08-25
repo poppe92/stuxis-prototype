@@ -15,7 +15,7 @@ function Hero({
   children,
 }: PropsWithChildren<HeroProps>) {
   return (
-    <div className="flex flex-col text-center pt-24 px-24 w-full">
+    <div className="flex flex-col text-center px-2 md:pt-24 md:px-24 w-full">
       <Image
         src={image}
         alt="/"

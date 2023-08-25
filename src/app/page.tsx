@@ -4,9 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 // import images
-import img1 from "public/Stuxis_Logo.png";
-import img2 from "public/images/stuxisFullImage.png";
-import heroImage from "public/images/heroImage.png";
+import img1 from "/public/Stuxis_Logo.webp";
+import img2 from "/public/images/stuxisFullImage.webp";
+import heroImage from "/public/images/heroImage.webp";
 
 export default function Home() {
   return (

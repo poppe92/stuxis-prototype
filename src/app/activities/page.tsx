@@ -12,7 +12,7 @@ import Link from "next/link";
 import Slider from "@/components/Slider";
 import { StuxisDagen } from "@/components/StuxisDagen2023";
 
-import heroImage from "/public/images/heroImage.png";
+import heroImage from "/public/images/heroImage.webp";
 
 function activities() {
   return (

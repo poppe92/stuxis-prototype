@@ -5,9 +5,9 @@ import Link from "next/link";
 import React from "react";
 
 // import images
-import img1 from "public/images/stuxisInsideAndOutside.jpg";
-import img2 from "public/images/stuxisKitchenAndInside.jpg";
-import birthdayImage from "public/images/birthdayImage.png";
+import img1 from "public/images/stuxisInsideAndOutside.webp";
+import img2 from "public/images/stuxisKitchenAndInside.webp";
+import birthdayImage from "public/images/birthdayImage.webp";
 
 function birthDays() {
   return (

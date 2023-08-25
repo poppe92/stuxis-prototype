@@ -3,7 +3,7 @@ import Slider from "@/components/Slider";
 import { SliderData } from "@/components/SliderData";
 import React from "react";
 
-import heroImage from "public/images/heroImage.png";
+import heroImage from "public/images/heroImage.webp";
 
 function Gallery() {
   return (

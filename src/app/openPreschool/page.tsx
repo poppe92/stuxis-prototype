@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 // import images
-import img1 from "public/images/stuxisInsideAndOutside.jpg";
-import heroImage from "public/images/heroImage.png";
+import img1 from "public/images/stuxisInsideAndOutside.webp";
+import heroImage from "public/images/heroImage.webp";
 
 function openPreschool() {
   return (

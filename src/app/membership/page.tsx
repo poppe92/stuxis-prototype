@@ -5,8 +5,8 @@ import React from "react";
 import Image from "next/image";
 
 // import images
-import img1 from "public/images/bodenWideBild.jpg";
-import heroImage from "public/images/heroImage.png";
+import img1 from "public/images/bodenWideBild.webp";
+import heroImage from "public/images/heroImage.webp";
 
 function Membership() {
   return (
