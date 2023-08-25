@@ -4,10 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+// import images
+import img1 from "public/images/stuxisInsideAndOutside.jpg";
+import img2 from "public/images/stuxisKitchenAndInside.jpg";
+import birthdayImage from "public/images/birthdayImage.png";
+
 function birthDays() {
   return (
     <>
-      <Hero image="/images/birthdayImage.png">
+      <Hero image={birthdayImage}>
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
           Barnkalas
         </h1>
@@ -60,17 +65,19 @@ function birthDays() {
         </div>
         <div id="calendar" className="flex w-1/2">
           <Image
-            src="/images/stuxisKitchenAndInside.jpg"
+            src={img1}
             width={1000}
             height={600}
             alt="/"
+            placeholder="blur"
             className="w-1/2 p-2"
           />
           <Image
-            src="/images/stuxisInsideAndOutside.jpg"
+            src={img2}
             width={1000}
             height={600}
             alt="/"
+            placeholder="blur"
             className="w-1/2 p-2"
           />
         </div>

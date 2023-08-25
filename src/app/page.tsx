@@ -3,15 +3,20 @@ import Hero from "@/components/Hero";
 import Image from "next/image";
 import Link from "next/link";
 
+// import images
+import img1 from "public/Stuxis_Logo.png";
+import img2 from "public/images/stuxisFullImage.png";
+import heroImage from "public/images/heroImage.png";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
-      <Hero image="/images/heroImage.png">
+      <Hero image={heroImage}>
         <div className="flex flex-col items-center">
           <h1 className="flex flex-wrap items-center font-bold text-2xl text-comfy-blue pt-12 max-w-xl justify-center ">
             Välkommen till
             <Image
-              src="/Stuxis_Logo.png"
+              src={img1}
               alt="/"
               width={93}
               height={43}
@@ -32,7 +37,7 @@ export default function Home() {
         </p>
 
         <Image
-          src="/images/stuxisFullImage.png"
+          src={img2}
           width={1000}
           height={600}
           alt="/"

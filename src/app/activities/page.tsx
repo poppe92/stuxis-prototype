@@ -12,10 +12,12 @@ import Link from "next/link";
 import Slider from "@/components/Slider";
 import { StuxisDagen } from "@/components/StuxisDagen2023";
 
+import heroImage from "/public/images/heroImage.png";
+
 function activities() {
   return (
     <>
-      <Hero image="/images/heroImage.png">
+      <Hero image={heroImage}>
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
           Aktiviteter
         </h1>

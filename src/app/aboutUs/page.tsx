@@ -2,10 +2,16 @@ import Hero from "@/components/Hero";
 import React from "react";
 import Image from "next/image";
 
+// import images
+import imgJesper from "public/images/lillaEbban.jpg";
+import imgKerstin from "public/images/kerstinSquare.jpg";
+import imgNathalie from "public/images/nathalie.jpg";
+import heroImage from "public/images/heroImage.png";
+
 function aboutUs() {
   return (
     <>
-      <Hero image="/images/heroImage.png">
+      <Hero image={heroImage}>
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12 underline decoration-light-comfy-red decoration-4 pb-12 ">
           Om oss
         </h1>
@@ -46,10 +52,11 @@ function aboutUs() {
         {/* President */}
         <div>
           <Image
-            src="/images/lillaEbban.jpg"
+            src={imgJesper}
             height={300}
             width={300}
             alt="/"
+            placeholder="blur"
             className="rounded-3xl border-2 border-solid"
           />
           <h3 className="text-xl font-bold text-center text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">
@@ -60,10 +67,11 @@ function aboutUs() {
         {/* Paymaster */}
         <div>
           <Image
-            src="/images/kerstinSquare.jpg"
+            src={imgKerstin}
             height={300}
             width={300}
             alt="/"
+            placeholder="blur"
             className="rounded-3xl"
           />
           <h3 className="text-xl text-center font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">
@@ -74,10 +82,11 @@ function aboutUs() {
         {/* Deputy's */}
         <div>
           <Image
-            src="/images/nathalie.jpg"
+            src={imgNathalie}
             height={300}
             width={300}
             alt="/"
+            placeholder="blur"
             className="rounded-3xl"
           />
           <h3 className="text-xl text-center font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">

@@ -4,10 +4,14 @@ import InfoCard from "@/components/InfoCard";
 import React from "react";
 import Image from "next/image";
 
+// import images
+import img1 from "public/images/bodenWideBild.jpg";
+import heroImage from "public/images/heroImage.png";
+
 function Membership() {
   return (
     <main className="flex flex-col justify-between">
-      <Hero image="/images/heroImage.png">
+      <Hero image={heroImage}>
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
           Medlemsförmåner
         </h1>
@@ -49,10 +53,9 @@ function Membership() {
       <div className="flex flex-col w-full items-center justify-center text-xl p-14">
         <div className="w-1/2 p-2 flex justify-center">
           <Image
-            src="/images/bodenWideBild.jpg"
-            height={1500}
-            width={1200}
-            alt="/"
+            src={img1}
+            alt="Bild på vad som finns i boden."
+            placeholder="blur"
           />
         </div>
         <p className="w-1/2 p-2">

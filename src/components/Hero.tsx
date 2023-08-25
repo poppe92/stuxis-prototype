@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { PropsWithChildren } from "react";
 
 type HeroProps = {
-  image: string;
+  image: StaticImageData;
   shadowColor?: string;
   borderColor?: string;
 };
