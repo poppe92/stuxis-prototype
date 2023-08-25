@@ -21,6 +21,7 @@ function Hero({
         alt="/"
         height={350}
         width={1200}
+        placeholder="blur"
         className={`object-contain w-full h-auto rounded-2xl border-2 border-solid ${borderColor} ${shadowColor}`}
       />
       {children}

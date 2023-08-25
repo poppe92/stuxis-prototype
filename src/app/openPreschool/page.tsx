@@ -30,6 +30,7 @@ function openPreschool() {
         <Image
           src={img1}
           alt="Samlingsbild på stuxis innomhus och utomhus."
+          placeholder="blur"
           className="w-1/2 p-2 flex flex-col justify-center"
         />
 

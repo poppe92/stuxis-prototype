@@ -38,9 +38,8 @@ export default function Home() {
 
         <Image
           src={img2}
-          width={1000}
-          height={600}
           alt="/"
+          placeholder="blur"
           className="flex w-1/2 p-2 justify-center"
         />
 
