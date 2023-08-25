@@ -3,10 +3,14 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+// import images
+import img1 from "public/images/stuxisInsideAndOutside.jpg";
+import heroImage from "public/images/heroImage.png";
+
 function openPreschool() {
   return (
-    <div>
-      <Hero image="/heroImage.png">
+    <>
+      <Hero image={heroImage}>
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
           Öppen Förskola
         </h1>
@@ -23,7 +27,12 @@ function openPreschool() {
           där man kan värma mat.
         </p>
 
-        <Image src="/stuxisFullImage.png" width={800} height={500} alt="/" />
+        <Image
+          src={img1}
+          alt="Samlingsbild på stuxis innomhus och utomhus."
+          placeholder="blur"
+          className="w-1/2 p-2 flex flex-col justify-center"
+        />
 
         <p className="w-1/2 p-2 ">
           För tillfället har vi inte öppet lokalen på vardagar, men söker dig
@@ -39,14 +48,14 @@ function openPreschool() {
         <p className="w-1/2 p-2 ">
           Följ oss på
           <Link
-            className="font-bold underline decoration-3 p-1"
+            className="font-bold underline decoration-3 p-1 decoration-light-comfy-red"
             href="https://facebook.com/stuxis">
             Facebook
           </Link>
           för aktuell information och ändringar gällande öppettider.
         </p>
       </div>
-    </div>
+    </>
   );
 }
 

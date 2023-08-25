@@ -3,20 +3,20 @@ import Hero from "@/components/Hero";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
-  function handleClick() {}
+// import images
+import img1 from "public/Stuxis_Logo.png";
+import img2 from "public/images/stuxisFullImage.png";
+import heroImage from "public/images/heroImage.png";
 
+export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
-      <Hero
-        image="/heroImage.png"
-        borderColor="border-comfy-blue"
-        shadowColor="shadow-light-blue-shadow">
+      <Hero image={heroImage}>
         <div className="flex flex-col items-center">
           <h1 className="flex flex-wrap items-center font-bold text-2xl text-comfy-blue pt-12 max-w-xl justify-center ">
             Välkommen till
             <Image
-              src="/Stuxis_Logo.png"
+              src={img1}
               alt="/"
               width={93}
               height={43}
@@ -36,7 +36,12 @@ export default function Home() {
           Stuxbergsgatans Fritidspark.
         </p>
 
-        <Image src="/stuxisFullImage.png" width={800} height={500} alt="/" />
+        <Image
+          src={img2}
+          alt="/"
+          placeholder="blur"
+          className="flex w-1/2 p-2 justify-center"
+        />
 
         <p className="w-1/2 p-2 ">
           I parken finns en lokal som används till öppen förskola och hyrs ut
@@ -50,15 +55,22 @@ export default function Home() {
         <div className="p-2 w-1/2">
           <p>
             Medlemskapet kostar
-            <text className="font-bold underline decoration-light-comfy-red decoration-4 px-1 ">
+            <span className="font-bold underline decoration-light-comfy-red decoration-4 px-1 ">
               150 kr
-            </text>
+            </span>
             per kalenderår och gäller för en hel familj.
           </p>
         </div>
 
-        <p className="w-1/2 p-2">Läs mer och bli medlem här:</p>
+        <p className="w-1/2 p-2">
+          Läs mer{" "}
+          <Link href="/membership" className="text-comfy-blue font-bold">
+            här
+          </Link>{" "}
+          eller bli medlem direkt med knappen:
+        </p>
       </div>
+
       <BecomeMemberButton />
 
       {/* Latest News */}

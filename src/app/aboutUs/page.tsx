@@ -2,16 +2,24 @@ import Hero from "@/components/Hero";
 import React from "react";
 import Image from "next/image";
 
+// import images
+import imgJesper from "public/images/lillaEbban.jpg";
+import imgKerstin from "public/images/kerstinSquare.jpg";
+import imgNathalie from "public/images/nathalie.jpg";
+import heroImage from "public/images/heroImage.png";
+
 function aboutUs() {
   return (
     <>
-      <Hero image="/heroImage.png">
+      <Hero image={heroImage}>
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12 underline decoration-light-comfy-red decoration-4 pb-12 ">
           Om oss
         </h1>
       </Hero>
 
-      <div className="flex flex-col justify-center items-center text-xl px-24 py-4">
+      <div
+        id="board"
+        className="flex flex-col justify-center items-center text-xl px-24 py-4">
         <h1 className="text-xl font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-2 w-2/3">
           Styrelse
         </h1>
@@ -40,14 +48,15 @@ function aboutUs() {
       </div>
 
       {/* Image Container Div */}
-      <div className="flex w-full justify-center items-center gap-10 px-24">
+      <div className="flex w-full justify-center items-center gap-10 px-24 flex-wrap">
         {/* President */}
         <div>
           <Image
-            src="/lillaEbban.jpg"
+            src={imgJesper}
             height={300}
             width={300}
             alt="/"
+            placeholder="blur"
             className="rounded-3xl border-2 border-solid"
           />
           <h3 className="text-xl font-bold text-center text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">
@@ -58,10 +67,11 @@ function aboutUs() {
         {/* Paymaster */}
         <div>
           <Image
-            src="/kerstinSquare.jpg"
+            src={imgKerstin}
             height={300}
             width={300}
             alt="/"
+            placeholder="blur"
             className="rounded-3xl"
           />
           <h3 className="text-xl text-center font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">
@@ -72,10 +82,11 @@ function aboutUs() {
         {/* Deputy's */}
         <div>
           <Image
-            src="/nathalie.jpg"
+            src={imgNathalie}
             height={300}
             width={300}
             alt="/"
+            placeholder="blur"
             className="rounded-3xl"
           />
           <h3 className="text-xl text-center font-bold text-comfy-blue underline decoration-light-comfy-red decoration-4 p-4">

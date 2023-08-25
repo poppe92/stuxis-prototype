@@ -25,7 +25,7 @@ function List({ children }: PropsWithChildren) {
         return (
           <li key={index} className="flex items-start gap-4 p-4">
             <Image
-              src={`${bulletShape}.svg`}
+              src={`/svg/${bulletShape}.svg`}
               alt="/"
               width={24}
               height={24}></Image>

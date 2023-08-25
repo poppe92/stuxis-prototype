@@ -4,10 +4,14 @@ import InfoCard from "@/components/InfoCard";
 import React from "react";
 import Image from "next/image";
 
+// import images
+import img1 from "public/images/bodenWideBild.jpg";
+import heroImage from "public/images/heroImage.png";
+
 function Membership() {
   return (
     <main className="flex flex-col justify-between">
-      <Hero image="/heroImage.png">
+      <Hero image={heroImage}>
         <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
           Medlemsförmåner
         </h1>
@@ -15,11 +19,11 @@ function Membership() {
       {/* Wrapper */}
       <div className="relative mx-auto">
         {/* Background */}
-        <div className="absolute bg-comfy-yellow w-full -z-10 top-4 left-7 h-[calc(100%+16px)]  rounded-lg"></div>
+        <div className="absolute bg-comfy-yellow w-full -z-10 top-4 left-7 h-[calc(100%+16px)]  rounded-lg" />
         {/* Cards */}
-        <div className="flex content-between gap-6">
+        <div className="flex content-between gap-6 flex-wrap">
           <InfoCard
-            image="/person_play.svg"
+            image="/svg/person_play.svg"
             headerText="Lek"
             paragraphText="Tillgång till öppen förskola med lek inomhus."
             backgroundColor="bg-light-comfy-blue"
@@ -27,7 +31,7 @@ function Membership() {
             shadowColor="shadow-blue-shadow"
           />
           <InfoCard
-            image="/door_sliding.svg"
+            image="/svg/door_sliding.svg"
             headerText="Boden"
             paragraphText="Tillgång till leksakboden med uteleksaker för alla åldrar."
             backgroundColor="bg-light-comfy-purple"
@@ -35,7 +39,7 @@ function Membership() {
             shadowColor="shadow-purple-shadow"
           />
           <InfoCard
-            image="/cake.svg"
+            image="/svg/cake.svg"
             headerText="Barnkalas"
             paragraphText="Möjlighet att hyra lokalen för barnkalas."
             backgroundColor="bg-light-comfy-red"
@@ -47,8 +51,12 @@ function Membership() {
 
       {/* Info Text */}
       <div className="flex flex-col w-full items-center justify-center text-xl p-14">
-        <div>
-          <Image src="/bodenWideBild.jpg" height={1500} width={1200} alt="/" />
+        <div className="w-1/2 p-2 flex justify-center">
+          <Image
+            src={img1}
+            alt="Bild på vad som finns i boden."
+            placeholder="blur"
+          />
         </div>
         <p className="w-1/2 p-2">
           Du som vill engagera dig mer aktivt i föreningen kan t.ex. hålla
