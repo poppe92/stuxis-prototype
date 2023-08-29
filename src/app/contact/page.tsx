@@ -13,7 +13,7 @@ import {
 import ContactForm from "@/components/ContactForm";
 
 // import images
-import heroImage from "/public/images/heroImage.png";
+import heroImage from "/public/images/heroImage.webp";
 
 function contact() {
   return (
@@ -25,13 +25,13 @@ function contact() {
       </Hero>
 
       {/* Form Wrapper */}
-      <div className="flex flex-row-reverse w-full text-xl px-24 ">
+      <div className="flex lg:flex-row-reverse w-full text-xl lg:px-24 px-10 flex-col">
         {/* Form */}
 
         <ContactForm />
 
         {/* Image with info */}
-        <div className=" bg-[url('/images/stuxisAvlang.png')] w-1/2 bg-cover bg-repeat bg-center z-10  relative p-7 flex flex-col items-center justify-center before:-z-10 before:w-full before:h-full before:block before:absolute before:bg-[rgb(0,0,0,0.7)] text-white">
+        <div className="hidden bg-[url('/images/stuxisAvlang.webp')] w-1/2 bg-cover bg-repeat bg-center z-10  relative p-7 lg:flex flex-col items-center justify-center before:-z-10 before:w-full before:h-full before:block before:absolute before:bg-[rgb(0,0,0,0.7)] text-white">
           {/* Adress */}
           <div>
             <div className="flex items-center text-left gap-4 py-6">

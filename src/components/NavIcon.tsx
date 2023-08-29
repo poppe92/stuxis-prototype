@@ -4,8 +4,13 @@ import React from "react";
 
 function NavIcon() {
   return (
-    <Link className="min-w-[100px] " href="/">
-      <Image src="/Stuxis_Logo.png" alt="/" width={100} height={100} />
+    <Link href="/">
+      <Image
+        src="/Stuxis_Logo-removebg-preview.webp"
+        alt="/"
+        width={100}
+        height={100}
+      />
     </Link>
   );
 }

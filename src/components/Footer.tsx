@@ -18,11 +18,11 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="p-12 flex justify-between">
+    <footer className="p-12 flex justify-center lg:justify-between items-center lg:items-start flex-col lg:flex-row">
       {/* Website image */}
-      <div className="w-1/3 text-center flex flex-col gap-6 justify-enter items-center">
+      <div className="lg:w-1/3 text-center flex flex-row lg:flex-col gap-6 items-center p-4 lg:p-0">
         <Image
-          src="/Stuxis_Logo.png"
+          src="/Stuxis_Logo-removebg-preview.webp"
           height={100}
           width={100}
           alt="/"
@@ -45,8 +45,8 @@ function Footer() {
       </div>
 
       {/* Get in touch */}
-      <div className="w-1/3 text-center">
-        <h1 className="font-bold text-2xl text-comfy-blue  underline decoration-light-comfy-red decoration-4  ">
+      <div className="w-full lg:w-1/3 text-center p-4 lg:p-0 text-lg">
+        <h1 className="font-bold text-2xl text-comfy-blue  underline decoration-light-comfy-red decoration-4">
           Kom i kontakt med oss
         </h1>
         <div className="flex items-center justify-center text-left pt-2 gap-4">
@@ -86,7 +86,7 @@ function Footer() {
       </div>
 
       {/* Quick links */}
-      <div className="w-1/3 text-center ">
+      <div className="hidden lg:block w-1/3 text-center ">
         <h1 className="font-bold text-2xl text-comfy-blue underline decoration-light-comfy-red decoration-4 ">
           Snabblänkar
         </h1>

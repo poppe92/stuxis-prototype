@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image, { StaticImageData } from "next/image";
 import { PropsWithChildren } from "react";
 
@@ -15,7 +15,7 @@ function Hero({
   children,
 }: PropsWithChildren<HeroProps>) {
   return (
-    <div className="flex flex-col text-center pt-24 px-24 w-full">
+    <div className="flex flex-col text-center pt-20 lg:pt-2 px-10 lg:px-24 w-full">
       <Image
         src={image}
         alt="/"

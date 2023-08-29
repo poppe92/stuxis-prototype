@@ -1,13 +1,13 @@
-import img1 from "/public/images/stuxisFullImageGalleryRatio.png"
-import img2 from "/public/images/stuxisBoden_1.jpg"
-import img3 from "/public/images/stuxisBoden_2.jpg"
-import img4 from "/public/images/stuxisKitchen_1.jpg"
-import img5 from "/public/images/stuxisKitchen_2.jpg"
-import img6 from "/public/images/stuxisKitchen_3.jpg"
-import img7 from "/public/images/stuxisKitchen_4.jpg"
-import img8 from "/public/images/stuxisKitchen_5.jpg"
-import img9 from "/public/images/stuxisInside_1.jpg"
-import img10 from "/public/images/stuxisInside_2.jpg"
+import img1 from "/public/images/stuxisFullImageGalleryRatio.webp"
+import img2 from "/public/images/stuxisBoden_1.webp"
+import img3 from "/public/images/stuxisBoden_2.webp"
+import img4 from "/public/images/stuxisKitchen_1.webp"
+import img5 from "/public/images/stuxisKitchen_2.webp"
+import img6 from "/public/images/stuxisKitchen_3.webp"
+import img7 from "/public/images/stuxisKitchen_4.webp"
+import img8 from "/public/images/stuxisKitchen_5.webp"
+import img9 from "/public/images/stuxisInside_1.webp"
+import img10 from "/public/images/stuxisInside_2.webp"
 
 export const SliderData = [
     {

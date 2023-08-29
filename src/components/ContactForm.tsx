@@ -57,7 +57,7 @@ function ContactForm() {
 
   return (
     <form
-      className="flex flex-wrap w-1/2 p-12"
+      className="flex flex-wrap lg:w-1/2 lg:p-12 w-full"
       onSubmit={handleSubmit(onSubmit)}>
       {/* Web3Forms hidden inputs */}
       <input type="hidden" value={apiKey} {...register("access_key")} />
