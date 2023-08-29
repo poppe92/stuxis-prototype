@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import React from "react";
 import Link from "next/link";
@@ -7,10 +7,11 @@ import { usePathname } from "next/navigation";
 export type NavigationItemProps = {
   link: string;
   text: string;
+  onClick?: React.MouseEventHandler;
 };
 
-function NavigationItem({ link, text }: NavigationItemProps) {
-  const linkStyle = "p-4 text-4xl sm:text-xl ";
+function NavigationItem({ link, text, onClick }: NavigationItemProps) {
+  const linkStyle = "p-4 text-4xl lg:text-xl ";
   const activeStyle =
     linkStyle + "underline decoration-4 decoration-light-comfy-red font-bold";
   const nonActiveStyle =
@@ -20,7 +21,9 @@ function NavigationItem({ link, text }: NavigationItemProps) {
   const currentRoute = usePathname();
 
   return (
-    <li className={currentRoute === link ? activeStyle : nonActiveStyle}>
+    <li
+      className={currentRoute === link ? activeStyle : nonActiveStyle}
+      onClick={onClick}>
       <Link href={link}>{text}</Link>
     </li>
   );

@@ -12,16 +12,16 @@ function Membership() {
   return (
     <main className="flex flex-col justify-between">
       <Hero image={heroImage}>
-        <h1 className="w-1/3 flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
+        <h1 className="lg:w-1/3 w-full flex justify-center text-center font-bold text-2xl text-comfy-blue pt-12  underline decoration-light-comfy-red decoration-4 pb-12">
           Medlemsförmåner
         </h1>
       </Hero>
       {/* Wrapper */}
-      <div className="relative mx-auto">
+      <div className="relative md:mx-auto mx-10">
         {/* Background */}
-        <div className="absolute bg-comfy-yellow w-full -z-10 top-4 left-7 h-[calc(100%+16px)]  rounded-lg" />
+        <div className="absolute bg-comfy-yellow w-full  -z-10 top-4 left-7 h-[calc(100%+16px)]  rounded-lg" />
         {/* Cards */}
-        <div className="flex content-between gap-6 flex-wrap">
+        <div className="flex lg:flex-row flex-col content-between gap-6 ">
           <InfoCard
             image="/svg/person_play.svg"
             headerText="Lek"
@@ -50,21 +50,21 @@ function Membership() {
       </div>
 
       {/* Info Text */}
-      <div className="flex flex-col w-full items-center justify-center text-xl p-14">
-        <div className="w-1/2 p-2 flex justify-center">
+      <div className="flex flex-col w-full lg:items-center lg:justify-center text-xl p-14 ">
+        <div className="lg:w-1/2 p-2 flex justify-center">
           <Image
             src={img1}
             alt="Bild på vad som finns i boden."
             placeholder="blur"
           />
         </div>
-        <p className="w-1/2 p-2">
+        <p className="lg:w-1/2 p-2">
           Du som vill engagera dig mer aktivt i föreningen kan t.ex. hålla
           lokalen öppen för öppen förskola, vara med i styrelsen eller ta dig an
           något mindre projekt. Det är alla vi medlemmar som tillsammans gör
           föreningen sådan vi vill ha den!
         </p>
-        <p className="w-1/2 p-2">
+        <p className="lg:w-1/2 p-2">
           Om du har förslag rörande öppettider, aktiviteter eller annat så blir
           vi i styrelsen glada om du hör av dig till
           <a
